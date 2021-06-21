@@ -1,0 +1,48 @@
+.table {
+  @include reset-table();
+  border-collapse: collapse;
+  &__body {
+    background-color: $table-body-color;
+  }
+  &__row {
+    outline-color: $main-color;
+    height: 40px;
+  }
+  &__row:nth-child(even) {
+    background-color: $row-even-color;
+  }
+  &__cell,
+  &__data {
+    padding-left: 10px;
+  }
+  &__btn {
+    text-align: right;
+    padding-right: 10px;
+  }
+}
+
+.btn-delete,
+.btn-edit {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: $main-color;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    color: $hover-main-color;
+  }
+}
+
+.btn-edit {
+  color: $edit-color;
+  &:hover {
+    color: $hover-edit-color;
+  }
+}
+
+.edited {
+  color: $save-color;
+}

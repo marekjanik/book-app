@@ -1,0 +1,21 @@
+{
+  "book": [
+    {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "isbn": "1408855895"
+    },
+
+    {
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "isbn": "0307474275"
+    },
+
+    {
+      "title": "The Great Gatsby",
+      "author": "Francis Scott Fitzgerald",
+      "isbn": "1877534110"
+    }
+  ]
+}

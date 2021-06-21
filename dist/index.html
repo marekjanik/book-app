@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>BookList</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__logo"><i class="fas fa-book-open"></i>BookList</h1>
+    </header>
+    <!-- header -->
+
+    <table class="table">
+      <thead class="table__header">
+        <tr class="table__row">
+          <th class="table__cell">Title</th>
+          <th class="table__cell">Author</th>
+          <th class="table__cell">ISBN#</th>
+        </tr>
+      </thead>
+      <tbody class="table__body">
+        <tr class="table__row form">
+          <td class="table__cell">
+            <input
+              placeholder="Title..."
+              type="text"
+              class="form__input title-input"
+            />
+          </td>
+          <td class="table__cell">
+            <input
+              placeholder="Author..."
+              type="text"
+              class="form__input author-input"
+            />
+          </td>
+          <td class="table__cell">
+            <input
+              placeholder="ISBN#..."
+              type="text"
+              class="form__input isbn-input"
+            />
+          </td>
+          <td class="table__btn">
+            <button class="form__btn btn-save">Save</button>
+          </td>
+        </tr>
+        <!-- form -->
+      </tbody>
+    </table>
+    <!-- table -->
+
+    <script src="./js/bundle.min.js"></script>
+  </body>
+</html>

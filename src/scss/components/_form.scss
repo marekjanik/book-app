@@ -1,0 +1,18 @@
+.form {
+  border: 1px solid $table-border-color;
+  &__input {
+    @include reset-input();
+  }
+  &__btn {
+    @include reset-btn();
+    transition: background-color 0.3s;
+    &:hover {
+      background-color: $hover-main-color;
+    }
+  }
+  &__alert {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: $alert-color;
+  }
+}

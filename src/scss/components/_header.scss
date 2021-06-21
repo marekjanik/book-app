@@ -1,0 +1,13 @@
+.header {
+  margin: 40px 0;
+  text-align: center;
+  &__logo {
+    font-size: 40px;
+    font-weight: 300;
+    color: $main-color;
+  }
+}
+
+.fa-book-open {
+  margin-right: 10px;
+}
